@@ -8,24 +8,107 @@ body {
   background-color: hsl(0, 0%, 98%);
   font-size: 15px;
   font-family: "Poppins", sans-serif;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.main{
-    background-color: blue;
-    height:  80%;
-    width: 80%;
+.main {
+  /* background-color: rgb(164, 238, 221); */
+  height: 90%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 10px; */
+  /* padding: 10px; */
 }
 
+.main-head {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40vw;
+  margin: 10px;
+  padding: 10px;
 
-.main-head{
-    
+  /* height: 30vh; */
+}
+.main-head > h1 {
+  margin-bottom: 5px;
 }
 
+.main-head > h1 > span {
+  color: hsl(229, 6%, 66%);
+  margin: 5px;
+  /* color: grey; */
+}
+.main-head > p {
+  color: grey;
+}
+
+.main-card {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 10px;
+  width: 100%;
+}
+
+.superior-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  border-top: 4px solid aquamarine;
+  width: 100%;
+}
+
+.team-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  border-top: 4px solid rgb(255, 140, 127);
+  width: 100%;
+}
+
+.team-karma-card{
+    gap: 20px;
+    width: 100%;
+}
+.karma-card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  border-top: 4px solid rgb(255, 191, 127);
+  width: 100%;
+}
+.calc-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  border-top: 4px solid rgb(127, 142, 255);
+  width: 100%;
+}
+.main-card > .card-title {
+  margin: 5px;
+}
+.main-card > .card-para {
+  color: grey;
+}
+.img {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: 20px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;

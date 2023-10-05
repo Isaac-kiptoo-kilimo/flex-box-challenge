@@ -65,17 +65,20 @@ body {
 .superior-card {
   background-color: white;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   border-top: 4px solid aquamarine;
   width: 100%;
+  box-shadow: rgba(68, 61, 61, 0.1) 0px 4px 16px, rgba(254,205,211,0.1) 0px 8px 24px, rgba(42, 40, 40, 0.1) 0px 16px 56px;
 }
 
 .team-card {
   background-color: white;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   border-top: 4px solid rgb(255, 140, 127);
   width: 100%;
+  box-shadow: rgba(68, 61, 61, 0.1) 0px 4px 16px, rgba(254,205,211,0.1) 0px 8px 24px, rgba(42, 40, 40, 0.1) 0px 16px 56px;
+  
 }
 
 .team-karma-card{
@@ -86,17 +89,23 @@ body {
   background-color: white;
   padding: 20px;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   border-top: 4px solid rgb(255, 191, 127);
   width: 100%;
+  box-shadow: rgba(68, 61, 61, 0.1) 0px 4px 16px, rgba(254,205,211,0.1) 0px 8px 24px, rgba(42, 40, 40, 0.1) 0px 16px 56px;
 }
+
+
 .calc-card {
   background-color: white;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   border-top: 4px solid rgb(127, 142, 255);
   width: 100%;
+  box-shadow: rgba(68, 61, 61, 0.1) 0px 4px 16px, rgba(254,205,211,0.1) 0px 8px 24px, rgba(42, 40, 40, 0.1) 0px 16px 56px;
 }
+
+
 .main-card > .card-title {
   margin: 5px;
 }
@@ -108,6 +117,9 @@ body {
   justify-content: end;
   align-items: end;
   margin: 20px;
+}
+.card-para{
+    color: gray;
 }
 .attribution {
   font-size: 11px;
